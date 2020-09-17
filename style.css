@@ -1,0 +1,218 @@
+html {
+    height:100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: black;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #f53760;
+    
+}
+.logo {
+    width: 300px;
+    max-height: 300px;
+    margin-left: 100px;
+}
+
+.abouth1{
+    font-family: 'Cinzel', serif;
+    font-size:50px;
+    margin-bottom:30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.aboutp, .aboutp3{
+    font-family: 'Overlock', cursive;
+    font-size: 50px;
+    margin-bottom:15px;
+    text-align: center;
+}
+.aboutp2{
+    font-family: 'Overlock', cursive;
+    font-size: 50px;
+    margin-bottom:15px;
+    text-align: center;
+    margin-top: 45px;
+}
+.words {
+    color: rgb(119, 28, 184);
+    font-weight: 900;
+}
+.btn {
+    text-align: center;
+    margin-top: 100px;
+}
+.start {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding: 12px 24px;
+    background-color:white;
+    color: #f53760;
+    opacity: 1;
+    border-radius:4px;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(9, 6, 179, 0.228);
+}
+.start:hover {
+  opacity:0.9;
+  box-shadow: 5px 5px  #FA4083;
+}
+.message:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+  }
+.introh1 {
+
+    font-family: 'Cinzel', serif;
+    font-size:50px;
+    margin-bottom:30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+}
+
+.heading1{
+    font-family: 'Overlock', cursive;
+    font-size: 50px;
+    color: rgb(119, 28, 184);
+    font-weight: 500;
+    margin-bottom:45px;
+    text-align: center;
+}
+
+
+.minutes, .pages{
+    display: flex;
+    justify-content: space-evenly;
+}
+.timed, .paged{
+    padding: 12px 24px;
+    background-color:white;
+    opacity: 0.8;
+    text-decoration: none;
+    color: #FA4083;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(0,0,0, 0.228);
+}
+#modal-1, #modal-2, #modal-3 {
+    width: 100%;
+}
+#modal-1 h2, #modal-2 h2, #modal-3 h2, #modal-4 h2, #modal-5 h2, #modal-6 h2{
+    
+    font-family: 'Oswald', sans-serif;
+    color:blueviolet;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#modal-1 p, #modal-4 p, #modal-2 p, #modal-5 p, #modal-3 p, #modal-6 p {
+    font-family: 'Arima Madurai', cursive;
+    width: 350px;
+    font-size: 30px;
+    padding-top: 0px;
+    margin: auto;
+    text-align: center;
+    color:black;
+    margin-bottom: 7px;;
+}
+
+#modal-1 h3, #modal-2 h3, #modal-3 h3, #modal-4 h3, #modal-5 h3, #modal-6 h3{
+    font-family: 'Arima Madurai', cursive;
+    width: 300px;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    color:black;
+}
+
+#btn-start1, #btn-start2, #btn-start3, #btn-start4, #btn-start5, #btn-start6{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    display: inline-block;
+    padding: 14px 120px;
+    background-color: #5dca88;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+#btn-start1:hover, #btn-start2:hover, #btn-start3:hover,#btn-start4:hover, #btn-start5:hover, #btn-start6:hover {
+    opacity: 0.9;
+    box-shadow: 5px 5px #0e6430;
+}
+#btn-start1:active, #btn-start2:active, #btn-start3:active, #btn-start4:active, #btn-start5:active, #btn-start6:active{
+    box-shadow: none;
+    position:relative;
+    top:7px;
+}
+
+.modal-wrapper-1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display:none;
+}
+.modal {
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+}
+
+.close-modal{
+    margin-left: 380px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+#show-1, #show-2, #show-3, #show-4, #show-5, #show-6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding: 12px 24px;
+    background-color:white;
+    color: #f53760;
+    opacity: 1;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px #d62164;
+    margin-bottom: 100px;
+}
+
+#show-1:active, #show-2:active, #show-3:active, #show-4:active, #show-5:active, #show-6:active{
+    box-shadow: none;
+    position:relative;
+    top:7px;
+}
+.fa {
+    color: black;
+}
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Page Test</title>
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header_left">
+                <a href="index.html">
+                    <img class="logo" src="images/logo.png">
+                </a>
+            </div>
+        </header>
+    </div> 
+    <div class="details"> 
+      <div class="wpm"> 
+        <div class="header_text">WPM</div> 
+        <div class="curr_wpm">100</div> 
+      </div> 
+      <div class="cpm"> 
+        <div class="header_text">CPM</div> 
+        <div class="curr_cpm">100</div> 
+      </div> 
+      <div class="errors"> 
+        <div class="header_text">Errors</div> 
+        <div class="curr_errors">0</div> 
+      </div> 
+      <div class="timer"> 
+        <div class="header_text">Time</div> 
+        <div class="curr_time">60s</div> 
+      </div> 
+      <div class="accuracy"> 
+        <div class="header_text">Accuracy%</div> 
+        <div class="curr_accuracy">100</div> 
+      </div> 
+    </div> 
+    
+    <div class="display">
+        <div class="quote"> 
+        Click on the right to start the test..
+        </div> 
+        <textarea class="input_area"
+        placeholder="Type here to get started!"
+        oninput="processCurrentText()"
+        onfocus="startGame()"> 
+        </textarea>
+        
+      </div>
+      <div class="options">
+      <button class="restart_btn"
+      onclick="resetValues()"> 
+      Restart 
+      </button> 
+  
+      <button class="stop_btn"
+        onclick="stopPractice()">Stop</button>
+      
+    
+    
+  <script type="text/javascript" src="page2.js"></script>
+</body>
+</html>
